@@ -7,6 +7,6 @@ public class StudentController {
     private final StudentService studentService = new StudentService();
 
     public String saludar() {
-        return studentService.saludar();
+        return "Hola estudiante - Sprint 2";
     }
 }
